@@ -208,7 +208,7 @@ contract Credit is Destructible {
     }
 
     /** @dev Get current balance.
-      * @return this.balance.
+      * return this.balance.
       */
     function getBalance() public view returns (uint256) {
         return this.balance;
@@ -392,16 +392,16 @@ contract Credit is Destructible {
     }
 
     /** @dev Function to get the whole credit information.
-      * @return borrower
-      * @return description
-      * @return requestedAmount
-      * @return requestedRepayments
-      * @return remainingRepayments
-      * @return interest
-      * @return returnAmount
-      * @return state
-      * @return active
-      * @return this.balance
+      * return borrower
+      * return description
+      * return requestedAmount
+      * return requestedRepayments
+      * return remainingRepayments
+      * return interest
+      * return returnAmount
+      * return state
+      * return active
+      * return this.balance
       */
     function getCreditInfo() public view returns (address, bytes32, uint, uint, uint, uint, uint, uint, State, bool, uint) {
         return (
@@ -503,7 +503,7 @@ contract Credit is Destructible {
     }
 
     /** @dev Fraund function
-      * @return
+      * return
       * calls the owner contract and marks the borrower as fraudster.
       */
     function fraud() internal returns (bool) {
@@ -531,7 +531,7 @@ contract Credit is Destructible {
     /** @dev Toggle active state function.
       * Only accessible to the owner of the contract.
       * Toggles the active state of the contract.
-      * @return bool
+      * return bool
       */
     function toggleActive() external onlyOwner returns (bool) {
         active = !active;
