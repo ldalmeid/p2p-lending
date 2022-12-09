@@ -1,3 +1,10 @@
+# Presented by
+Ashish Simon Harrison ?
+Parth Manaktala  ?
+Nikita Katari ?
+Aman Bajpayee?
+Leandro de Almeida
+
 # P2P Lending platform
 Peer 2 peer lending platform on the Ethereum blockchain network.
 
