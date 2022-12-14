@@ -5,6 +5,12 @@
 - Aman Bajpayee
 - Leandro de Almeida
 
+Repo Link : https://github.com/ldalmeid/p2p-lending
+
+# Updates as on December 13 2022
+
+- The Appliaction has been updated to support the latest version of node, metamask, ganache and truffle.
+
 # P2P Lending platform
 Peer 2 peer lending platform on the Ethereum blockchain network.
 
@@ -53,6 +59,7 @@ $ cd p2p-lending/smart-contracts
 $ truffle complie
 $ truffle migrate --reset --network development --verbose-rpc
 ```
+3.  Use `truffle networks` to find the address of the deployed contract 
 
 3. Set the ``PeerToPeerLending`` contract newly published address in the [client-app/public/js/contract_interaction.js LINE:3](https://github.com/mradkov/p2p-lending/blob/370bde2a452caff4831d5e91157f733ce9921a99/client-app/public/js/contract_interaction.js#L5) 
 
@@ -66,23 +73,10 @@ $ npm start
 
 5. Your app is running on ``http://localhost:1337``
 
-### Development
-
-Want to contribute? Great!
-
-# Authors
-
-    Milen Radkov - milenradkov@me.com
-        Email - milenradkov@me.com
-        LinkedIn - https://www.linkedin.com/in/milenradkov/
-
 # Acknowledgments
 
     SoftUni - https://softuni.bg/
     ACADEMY: SCHOOL OF BLOCKCHAIN - http://www.kingsland.academy/
+    Milen Radkov - milenradkov@me.com
 
-# License
 
-  MIT
-
-**Free Software, Hell Yeah!**
